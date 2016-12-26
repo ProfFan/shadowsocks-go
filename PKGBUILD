@@ -10,8 +10,8 @@ license=("Unkown")
 conflicts=("shadowsocks")
 provides=("shadowsocks")
 source=(
-  "https://github.com/shadowsocks/shadowsocks-go/releases/download/1.1.5/shadowsocks-server-linux64-${pkgver}.gz"
-  "https://github.com/shadowsocks/shadowsocks-go/releases/download/1.1.5/shadowsocks-local-linux64-${pkgver}.gz"
+  "https://github.com/shadowsocks/shadowsocks-go/releases/download/${pkgver}/shadowsocks-server-linux64-${pkgver}.gz"
+  "https://github.com/shadowsocks/shadowsocks-go/releases/download/${pkgver}/shadowsocks-local-linux64-${pkgver}.gz"
   "shadowsocks@.service"
   "shadowsocks-server@.service")
 md5sums=('832181392b6164259134e3e3fe1c72bd'
