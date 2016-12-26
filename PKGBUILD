@@ -1,7 +1,7 @@
-# Maintainer: Saber
+# Maintainer: ProfFan
 
 pkgname="shadowsocks-go"
-pkgver=1.1.4
+pkgver=1.1.5
 pkgrel=2
 pkgdesc="go port of shadowsocks. USAGE located at https://github.com/SaberSalv/aur/tree/master/shadowsocks-go"
 arch=("x86_64")
@@ -10,12 +10,12 @@ license=("Unkown")
 conflicts=("shadowsocks")
 provides=("shadowsocks")
 source=(
-  "http://dl.chenyufei.info/shadowsocks/${pkgver}/shadowsocks-local-linux64-${pkgver}.gz"
-  "http://dl.chenyufei.info/shadowsocks/${pkgver}/shadowsocks-server-linux64-${pkgver}.gz"
+  "https://github.com/shadowsocks/shadowsocks-go/releases/download/1.1.5/shadowsocks-server-linux64-${pkgver}.gz"
+  "https://github.com/shadowsocks/shadowsocks-go/releases/download/1.1.5/shadowsocks-local-linux64-${pkgver}.gz"
   "shadowsocks@.service"
   "shadowsocks-server@.service")
-md5sums=('ea399d49b433e8cae687215a468b17d3'
-         '6986def625555ed7fe62b40a85396e4e'
+md5sums=('832181392b6164259134e3e3fe1c72bd'
+         'ea0301ecfb76f66b9edafc2a3f2015cf'
          'd26ab75cfad5f9cabfccbcbb9801950a'
          'b69a7bc69bd9138e3d092ced44a102a3')
 
